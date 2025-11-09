@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Rock Paper Scissors Game
 
-## Getting Started
+A fun, interactive Rock-Paper-Scissors game built with Next.js, React, and Tailwind CSS, where you can challenge the computer and see real-time results.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Select your choice: Rock, Paper, or Scissors
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Play against the computer with randomly generated choices
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Real-time result display: Win, Lose, or Draw
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Disabled and blurred buttons after choosing to prevent multiple selections
 
-## Learn More
+“Play Again” option to reset the game
 
-To learn more about Next.js, take a look at the following resources:
+Clean, responsive UI with Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠 Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next.js (React framework) – For building a fast, interactive web application
 
-## Deploy on Vercel
+Tailwind CSS – For responsive and modern styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+React useState Hook – To manage game state (user choice, computer choice, and result)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next/Image – Optimized images for Rock, Paper, and Scissors
+
+How to Play
+
+Select Rock, Paper, or Scissors from the buttons.
+
+The computer randomly selects its choice.
+
+The result is displayed immediately:
+
+You Won 🎉
+
+You Lost 😢
+
+Match is Drawn 🤝
+
+Click Play Again to reset and play another round.
+
+✨ Improvements You Could Add
+
+Scoreboard (track wins, losses, and draws)
+
+Timer before showing computer choice
+
+Animations for choices
+
+Mobile-friendly enhancements
+
+📄 License
+
+This project is open source and free to use
